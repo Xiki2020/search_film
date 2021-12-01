@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/title.png">
+    <title></title>
+</head>
+
+<body class="body">
+    <div class="users_general">
+        <h3>All users</h3>
+        <div class="users"></div>
+    </div>
+    <div class="users_info" hidden>
+        <h3>User info</h3>
+        <div class="user_info">
+            <div class="tr_user_info">
+                <div class="name_info td_info">
+                    <p>Name:</p>
+                </div>
+                <div class="value_name td_value"></div>
+            </div>
+            <div class="tr_user_info">
+                <div class="username_info td_info">
+                    <p>User name:</p>
+                </div>
+                <div class="value_username td_value"></div>
+            </div>
+            <div class="tr_user_info">
+                <div class="address_info td_info">
+                    <p>Address:</p>
+                </div>
+                <div class="value_address td_value"></div>
+            </div>
+            <div class="tr_user_info">
+                <div class="email_info td_info">
+                    <p>Email:</p>
+                </div>
+                <div class="value_email td_value"></div>
+            </div>
+            <div class="tr_user_info">
+                <div class="phone_info td_info">
+                    <p>Phone:</p>
+                </div>
+                <div class="value_phone td_value"></div>
+            </div>
+            <div class="tr_user_info">
+                <div class="website_info td_info">
+                    <p>Website:</p>
+                </div>
+                <div class="value_website td_value"></div>
+            </div>
+        </div>
+        <button class="show_posts">Show posts</button>
+    </div>
+    <div class="user_posts" hidden>
+        <h3>User posts</h3>
+        <div class="posts"></div>
+    </div>
+    <div class="search_film">
+        <h2>Search:</h2>
+        <form action="#" class="form_search" name="search">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div>
+                <label for="type">Type:</label>
+                <select name="type" id="type">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                    <option value="episode">Episode</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn_search" type="button">Search</button>
+            </div>
+        </form>
+    </div>
+    <div class="films"></div>
+    <div class="pagination_films"></div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

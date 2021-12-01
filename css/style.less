@@ -1,0 +1,213 @@
+*{
+   box-sizing: border-box;
+}
+
+.users_general {
+   width: 80%;
+   margin:0 auto;
+}
+
+.users{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.user{
+   width: 32%;
+
+   margin:10px 0;
+
+
+   border:1px solid black;
+   box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+   text-align: center;
+
+   transition: all .2s linear;
+}
+
+.user:active{
+   border-color:violet;
+   background-color: gray;
+}
+
+.users_info{
+   width: 80%;
+   margin:0 auto;
+}
+
+.user_info{
+   border: 1px solid black;
+}
+
+.td_info{
+   width: 30%;
+
+   border-right: 2px solid black;
+}
+
+.tr_user_info{
+   display: flex;
+   border: 1px solid black;
+}
+
+.tr_user_info div{
+   padding: 3px 10px;
+}
+
+.tr_user_info p{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.show_posts{
+   width: 100%;
+
+   margin:10px 0;
+}
+
+.user_posts {
+   width: 80%;
+   margin:0 auto;
+}
+
+.posts {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.post{
+   max-width: 500px;
+   min-width: 250px;
+
+   margin:10px 10px;
+   padding:0 15px;
+
+   box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+   border:1px solid black;
+}
+
+.search_film {
+   width: 300px;
+   margin:100px auto;
+
+   text-align: center;
+}
+
+.form_search div{
+   width: 300px;
+
+   display: flex;
+   justify-content: space-between;
+
+   margin:10px auto;
+}
+
+.form_search label{
+   width: 20%;
+   
+   display: flex;
+   align-items: center;
+}
+
+.form_search input,select{
+   width: 80%;
+   height: 30px;
+}
+
+.btn_search{
+   width: 100%;
+}
+
+.films{
+   max-width: 1360px;
+
+   margin:0 auto;
+
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.film{
+   width: 250px;
+   height: 200px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   margin:10px 10px;
+   padding: 10px;
+   
+   box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+   border-radius: 5px;
+}
+
+.info{
+   width: 60%;
+   height: 100%;
+
+   position: relative;
+}
+
+.year_film{
+   width: 100%;
+   margin:0;
+
+   position: absolute;
+   bottom: 0;
+
+   font-size: 18px;
+   font-weight: 500;
+   text-align: center;
+}
+
+.type{
+   margin: 0;
+   margin-right: 10px;
+   text-align: right;
+}
+
+.info h3{
+   text-align: center;
+   overflow-wrap: break-word;
+}
+
+.poster{
+   width: 40%;
+   height: 100%;
+
+   margin-right: 5px;
+}
+
+.poster_img{
+   width: 100%;
+   height: 90%;
+}
+
+.details_film{
+   width: 100%;
+   height: 10%;
+}
+
+.pagination_films{
+   margin:10px 0;
+   text-align: center;
+}
+.info_film{
+   font-size: 20px;
+}
+
+@media (max-width: 700px){
+   .info_film{
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 500px){
+   .info_film{
+      font-size: 8px;
+   }
+}
